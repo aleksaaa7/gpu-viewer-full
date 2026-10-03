@@ -1,0 +1,67 @@
+.add-card-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.add-card-form {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.add-card-form h2 {
+  margin: 0 0 1rem 0;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.add-card-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.add-card-form input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.add-card-form input:focus {
+  border-color: #2563eb;
+}
+
+.add-card-form button {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.success-message {
+  color: #16a34a;
+  font-size: 0.9rem;
+}
+
+.error-message {
+  color: #dc2626;
+  font-size: 0.9rem;
+}
